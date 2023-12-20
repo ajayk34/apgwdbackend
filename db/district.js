@@ -13,6 +13,20 @@ const DistrictSchema = new mongoose.Schema({
     finalvalue:{
         type:String,
         required:false
+    },
+    previousdata:{
+        type:Object,
+        required:false
+    },
+    updatetime:
+    {
+        type:String,
+        required:false
+    },
+    image:
+    {
+        type:String,
+        required:false
     }
 });
 
