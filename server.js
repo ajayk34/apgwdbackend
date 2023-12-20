@@ -7,7 +7,6 @@ const cors = require('cors');
 const District = require('./db/district');
 const cron = require('node-cron');
 
-
 //Middleware for parsing JSON
 app.use(express.json());
 
